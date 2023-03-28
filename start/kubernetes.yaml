@@ -26,6 +26,12 @@ spec:
           periodSeconds: 10
           timeoutSeconds: 3
           failureThreshold: 1
+      env:
+        - name: APP_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: sys-app-name
+              key: name
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -55,6 +61,17 @@ spec:
           periodSeconds: 10
           timeoutSeconds: 3
           failureThreshold: 1
+      env:
+        - name: SYSTEM_APP_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: sys-app-credentials
+              key: username
+        - name: SYSTEM_APP_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: sys-app-credentials
+              key: password
 ---
 apiVersion: v1
 kind: Service
