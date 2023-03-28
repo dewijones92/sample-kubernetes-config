@@ -1,0 +1,566 @@
+bash: /usr/share/doc/fzf/examples/completion.bash: No such file or directory
+bash: /home/dewi/code/dewi_projects/startup.sh: No such file or directory
+bash: /home/dewi/code/fzf/shell/*.bash: No such file or directory
+bash: /home/dewi/code/fzf/shell/key-bindings.bash: No such file or directory
++ set -e
++ sdk use java 11.0.9-trava
++ COMMAND=use
++ QUALIFIER=java
++ case "$COMMAND" in
++ [[ use != \u\p\d\a\t\e ]]
++ ___sdkman_check_candidates_cache /home/dewi/.sdkman/var/candidates
++ local candidates_cache=/home/dewi/.sdkman/var/candidates
++ [[ -f /home/dewi/.sdkman/var/candidates ]]
++ [[ -n activemq,ant,asciidoctorj,ballerina,bpipe,btrace,concurnas,connor,coursier,cuba,cxf,doctoolchain,flink,gaiden,gradle,gradleprofiler,grails,groovy,groovyserv,hadoop,helidon,http4k,infrastructor,jarviz,java,jbake,jbang,jmc,jmeter,joern,jreleaser,karaf,kcctl,ki,kobweb,kotlin,kscript,ktx,layrry,leiningen,maven,mcs,micronaut,mulefd,mvnd,mybatis,neo4jmigrations,pierrot,pomchecker,quarkus,sbt,scala,scalacli,schemacrawler,skeletal,spark,springboot,sshoogr,taxi,test,tomcat,toolkit,vertx,visualvm,webtau,znai ]]
+++ find /home/dewi/.sdkman/var/candidates -mmin +43200
++ [[ -n '' ]]
++ [[ -f /home/dewi/.sdkman/var/candidates ]]
++ [[ -z activemq,ant,asciidoctorj,ballerina,bpipe,btrace,concurnas,connor,coursier,cuba,cxf,doctoolchain,flink,gaiden,gradle,gradleprofiler,grails,groovy,groovyserv,hadoop,helidon,http4k,infrastructor,jarviz,java,jbake,jbang,jmc,jmeter,joern,jreleaser,karaf,kcctl,ki,kobweb,kotlin,kscript,ktx,layrry,leiningen,maven,mcs,micronaut,mulefd,mvnd,mybatis,neo4jmigrations,pierrot,pomchecker,quarkus,sbt,scala,scalacli,schemacrawler,skeletal,spark,springboot,sshoogr,taxi,test,tomcat,toolkit,vertx,visualvm,webtau,znai ]]
++ __sdkman_echo_debug 'No update at this time. Using existing cache: activemq,ant,asciidoctorj,ballerina,bpipe,btrace,concurnas,connor,coursier,cuba,cxf,doctoolchain,flink,gaiden,gradle,gradleprofiler,grails,groovy,groovyserv,hadoop,helidon,http4k,infrastructor,jarviz,java,jbake,jbang,jmc,jmeter,joern,jreleaser,karaf,kcctl,ki,kobweb,kotlin,kscript,ktx,layrry,leiningen,maven,mcs,micronaut,mulefd,mvnd,mybatis,neo4jmigrations,pierrot,pomchecker,quarkus,sbt,scala,scalacli,schemacrawler,skeletal,spark,springboot,sshoogr,taxi,test,tomcat,toolkit,vertx,visualvm,webtau,znai'
++ [[ false == \t\r\u\e ]]
++ return 0
++ ___sdkman_check_version_cache
++ local version_url
++ local version_file=/home/dewi/.sdkman/var/version
++ [[ false != \t\r\u\e ]]
++ [[ -f /home/dewi/.sdkman/var/version ]]
+++ find /home/dewi/.sdkman/var/version -mmin +1440
++ [[ -z '' ]]
++ __sdkman_echo_debug 'Not refreshing version cache now...'
++ [[ false == \t\r\u\e ]]
+++ cat /home/dewi/.sdkman/var/version
++ SDKMAN_REMOTE_VERSION=5.18.0
++ SDKMAN_AVAILABLE=true
++ '[' -z '' ']'
++ SDKMAN_OFFLINE_MODE=false
++ __sdkman_update_service_availability
+++ __sdkman_determine_healthcheck_status
+++ [[ false == \t\r\u\e ]]
+++ [[ use == \o\f\f\l\i\n\e ]]
++++ __sdkman_secure_curl_with_timeouts https://api.sdkman.io/2/healthcheck
++++ [[ false == \t\r\u\e ]]
++++ curl --silent --location --connect-timeout 7 --max-time 10 https://api.sdkman.io/2/healthcheck
+++ echo 000000000000000000000000
++ local healthcheck_status=000000000000000000000000
++ __sdkman_set_availability 000000000000000000000000
++ local healthcheck_status=000000000000000000000000
+++ echo 000000000000000000000000
+++ tr '[:upper:]' '[:lower:]'
+++ grep --color=auto html
++ local detect_html=
++ [[ -z 000000000000000000000000 ]]
++ [[ -n '' ]]
++ SDKMAN_AVAILABLE=true
++ '[' -f /home/dewi/.sdkman/etc/config ']'
++ source /home/dewi/.sdkman/etc/config
+++ sdkman_auto_answer=false
+++ sdkman_auto_complete=true
+++ sdkman_auto_env=false
+++ sdkman_auto_update=true
+++ sdkman_beta_channel=false
+++ sdkman_checksum_enable=true
+++ sdkman_colour_enable=true
+++ sdkman_curl_connect_timeout=7
+++ sdkman_curl_max_time=10
+++ sdkman_debug_mode=false
+++ sdkman_insecure_ssl=false
+++ sdkman_rosetta2_compatible=false
+++ sdkman_selfupdate_feature=true
++ [[ -z use ]]
++ CMD_FOUND=
++ [[ use != \s\e\l\f\u\p\d\a\t\e ]]
++ CMD_TARGET=/home/dewi/.sdkman/src/sdkman-use.sh
++ [[ -f /home/dewi/.sdkman/src/sdkman-use.sh ]]
++ CMD_FOUND=/home/dewi/.sdkman/src/sdkman-use.sh
++ CMD_TARGET=/home/dewi/.sdkman/ext/sdkman-use.sh
++ [[ -f /home/dewi/.sdkman/ext/sdkman-use.sh ]]
++ [[ -z /home/dewi/.sdkman/src/sdkman-use.sh ]]
++ [[ -n java ]]
++ [[ use != \h\e\l\p ]]
++ [[ use != \o\f\f\l\i\n\e ]]
++ [[ use != \f\l\u\s\h ]]
++ [[ use != \s\e\l\f\u\p\d\a\t\e ]]
++ [[ use != \e\n\v ]]
++ [[ use != \c\o\m\p\l\e\t\i\o\n ]]
++ [[ use != \e\d\i\t ]]
++ [[ use != \h\o\m\e ]]
+++ echo activemq ant asciidoctorj ballerina bpipe btrace concurnas connor coursier cuba cxf doctoolchain flink gaiden gradle gradleprofiler grails groovy groovyserv hadoop helidon http4k infrastructor jarviz java jbake jbang jmc jmeter joern jreleaser karaf kcctl ki kobweb kotlin kscript ktx layrry leiningen maven mcs micronaut mulefd mvnd mybatis neo4jmigrations pierrot pomchecker quarkus sbt scala scalacli schemacrawler skeletal spark springboot sshoogr taxi test tomcat toolkit vertx visualvm webtau znai
+++ grep --color=auto -w java
++ [[ -z activemq ant asciidoctorj ballerina bpipe btrace concurnas connor coursier cuba cxf doctoolchain flink gaiden gradle gradleprofiler grails groovy groovyserv hadoop helidon http4k infrastructor jarviz java jbake jbang jmc jmeter joern jreleaser karaf kcctl ki kobweb kotlin kscript ktx layrry leiningen maven mcs micronaut mulefd mvnd mybatis neo4jmigrations pierrot pomchecker quarkus sbt scala scalacli schemacrawler skeletal spark springboot sshoogr taxi test tomcat toolkit vertx visualvm webtau znai ]]
++ [[ use == \o\f\f\l\i\n\e ]]
++ local final_rc=0
++ local native_command=/home/dewi/.sdkman/libexec/use
++ '[' -f /home/dewi/.sdkman/libexec/use ']'
++ '[' -n /home/dewi/.sdkman/src/sdkman-use.sh ']'
+++ echo use
+++ tr - _
++ local converted_command_name=use
++ __sdk_use java 11.0.9-trava
++ local candidate version install
++ candidate=java
++ version=11.0.9-trava
++ __sdkman_check_version_present 11.0.9-trava
++ local version=11.0.9-trava
++ '[' -z 11.0.9-trava ']'
++ __sdkman_check_candidate_present java
++ local candidate=java
++ '[' -z java ']'
++ [[ ! -d /home/dewi/.sdkman/candidates/java/11.0.9-trava ]]
++ __sdkman_set_candidate_home java 11.0.9-trava
++ local candidate version upper_candidate
++ candidate=java
++ version=11.0.9-trava
+++ echo java
+++ tr '[:lower:]' '[:upper:]'
++ upper_candidate=JAVA
++ export JAVA_HOME=/home/dewi/.sdkman/candidates/java/11.0.9-trava
++ JAVA_HOME=/home/dewi/.sdkman/candidates/java/11.0.9-trava
++ [[ /home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/home/dewi/.sdkman/candidates/maven/current/bin:/home/dewi/.sdkman/candidates/kotlin/current/bin:/home/dewi/.sdkman/candidates/java/current/bin:/home/dewi/.sdkman/candidates/gradle/current/bin:/home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/.cargo/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin:/home/dewi/.cabal/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin =~ /home/dewi/.sdkman/candidates/java/([^/]+) ]]
++ local matched_version
++ [[ false == \t\r\u\e ]]
++ matched_version=current
++ export PATH=/home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/home/dewi/.sdkman/candidates/maven/current/bin:/home/dewi/.sdkman/candidates/kotlin/current/bin:/home/dewi/.sdkman/candidates/java/11.0.9-trava/bin:/home/dewi/.sdkman/candidates/gradle/current/bin:/home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/.cargo/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin:/home/dewi/.cabal/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin
++ PATH=/home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/home/dewi/.sdkman/candidates/maven/current/bin:/home/dewi/.sdkman/candidates/kotlin/current/bin:/home/dewi/.sdkman/candidates/java/11.0.9-trava/bin:/home/dewi/.sdkman/candidates/gradle/current/bin:/home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/.cargo/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin:/home/dewi/.cabal/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin
++ [[ -L /home/dewi/.sdkman/candidates/java/current ]]
++ echo ''
+
++ __sdkman_echo_green 'Using java version 11.0.9-trava in this shell.'
++ __sdkman_echo 32m 'Using java version 11.0.9-trava in this shell.'
++ [[ true == \f\a\l\s\e ]]
++ echo -e '\033[1;32mUsing java version 11.0.9-trava in this shell.\033[0m'
+[1;32mUsing java version 11.0.9-trava in this shell.[0m
++ final_rc=0
++ return 0
++ sdk use maven 3.6.0
++ COMMAND=use
++ QUALIFIER=maven
++ case "$COMMAND" in
++ [[ use != \u\p\d\a\t\e ]]
++ ___sdkman_check_candidates_cache /home/dewi/.sdkman/var/candidates
++ local candidates_cache=/home/dewi/.sdkman/var/candidates
++ [[ -f /home/dewi/.sdkman/var/candidates ]]
++ [[ -n activemq,ant,asciidoctorj,ballerina,bpipe,btrace,concurnas,connor,coursier,cuba,cxf,doctoolchain,flink,gaiden,gradle,gradleprofiler,grails,groovy,groovyserv,hadoop,helidon,http4k,infrastructor,jarviz,java,jbake,jbang,jmc,jmeter,joern,jreleaser,karaf,kcctl,ki,kobweb,kotlin,kscript,ktx,layrry,leiningen,maven,mcs,micronaut,mulefd,mvnd,mybatis,neo4jmigrations,pierrot,pomchecker,quarkus,sbt,scala,scalacli,schemacrawler,skeletal,spark,springboot,sshoogr,taxi,test,tomcat,toolkit,vertx,visualvm,webtau,znai ]]
+++ find /home/dewi/.sdkman/var/candidates -mmin +43200
++ [[ -n '' ]]
++ [[ -f /home/dewi/.sdkman/var/candidates ]]
++ [[ -z activemq,ant,asciidoctorj,ballerina,bpipe,btrace,concurnas,connor,coursier,cuba,cxf,doctoolchain,flink,gaiden,gradle,gradleprofiler,grails,groovy,groovyserv,hadoop,helidon,http4k,infrastructor,jarviz,java,jbake,jbang,jmc,jmeter,joern,jreleaser,karaf,kcctl,ki,kobweb,kotlin,kscript,ktx,layrry,leiningen,maven,mcs,micronaut,mulefd,mvnd,mybatis,neo4jmigrations,pierrot,pomchecker,quarkus,sbt,scala,scalacli,schemacrawler,skeletal,spark,springboot,sshoogr,taxi,test,tomcat,toolkit,vertx,visualvm,webtau,znai ]]
++ __sdkman_echo_debug 'No update at this time. Using existing cache: activemq,ant,asciidoctorj,ballerina,bpipe,btrace,concurnas,connor,coursier,cuba,cxf,doctoolchain,flink,gaiden,gradle,gradleprofiler,grails,groovy,groovyserv,hadoop,helidon,http4k,infrastructor,jarviz,java,jbake,jbang,jmc,jmeter,joern,jreleaser,karaf,kcctl,ki,kobweb,kotlin,kscript,ktx,layrry,leiningen,maven,mcs,micronaut,mulefd,mvnd,mybatis,neo4jmigrations,pierrot,pomchecker,quarkus,sbt,scala,scalacli,schemacrawler,skeletal,spark,springboot,sshoogr,taxi,test,tomcat,toolkit,vertx,visualvm,webtau,znai'
++ [[ false == \t\r\u\e ]]
++ return 0
++ ___sdkman_check_version_cache
++ local version_url
++ local version_file=/home/dewi/.sdkman/var/version
++ [[ false != \t\r\u\e ]]
++ [[ -f /home/dewi/.sdkman/var/version ]]
+++ find /home/dewi/.sdkman/var/version -mmin +1440
++ [[ -z '' ]]
++ __sdkman_echo_debug 'Not refreshing version cache now...'
++ [[ false == \t\r\u\e ]]
+++ cat /home/dewi/.sdkman/var/version
++ SDKMAN_REMOTE_VERSION=5.18.0
++ SDKMAN_AVAILABLE=true
++ '[' -z false ']'
++ __sdkman_update_service_availability
+++ __sdkman_determine_healthcheck_status
+++ [[ false == \t\r\u\e ]]
+++ [[ use == \o\f\f\l\i\n\e ]]
++++ __sdkman_secure_curl_with_timeouts https://api.sdkman.io/2/healthcheck
++++ [[ false == \t\r\u\e ]]
++++ curl --silent --location --connect-timeout 7 --max-time 10 https://api.sdkman.io/2/healthcheck
+++ echo 000000000000000000000000
++ local healthcheck_status=000000000000000000000000
++ __sdkman_set_availability 000000000000000000000000
++ local healthcheck_status=000000000000000000000000
+++ echo 000000000000000000000000
+++ tr '[:upper:]' '[:lower:]'
+++ grep --color=auto html
++ local detect_html=
++ [[ -z 000000000000000000000000 ]]
++ [[ -n '' ]]
++ SDKMAN_AVAILABLE=true
++ '[' -f /home/dewi/.sdkman/etc/config ']'
++ source /home/dewi/.sdkman/etc/config
+++ sdkman_auto_answer=false
+++ sdkman_auto_complete=true
+++ sdkman_auto_env=false
+++ sdkman_auto_update=true
+++ sdkman_beta_channel=false
+++ sdkman_checksum_enable=true
+++ sdkman_colour_enable=true
+++ sdkman_curl_connect_timeout=7
+++ sdkman_curl_max_time=10
+++ sdkman_debug_mode=false
+++ sdkman_insecure_ssl=false
+++ sdkman_rosetta2_compatible=false
+++ sdkman_selfupdate_feature=true
++ [[ -z use ]]
++ CMD_FOUND=
++ [[ use != \s\e\l\f\u\p\d\a\t\e ]]
++ CMD_TARGET=/home/dewi/.sdkman/src/sdkman-use.sh
++ [[ -f /home/dewi/.sdkman/src/sdkman-use.sh ]]
++ CMD_FOUND=/home/dewi/.sdkman/src/sdkman-use.sh
++ CMD_TARGET=/home/dewi/.sdkman/ext/sdkman-use.sh
++ [[ -f /home/dewi/.sdkman/ext/sdkman-use.sh ]]
++ [[ -z /home/dewi/.sdkman/src/sdkman-use.sh ]]
++ [[ -n maven ]]
++ [[ use != \h\e\l\p ]]
++ [[ use != \o\f\f\l\i\n\e ]]
++ [[ use != \f\l\u\s\h ]]
++ [[ use != \s\e\l\f\u\p\d\a\t\e ]]
++ [[ use != \e\n\v ]]
++ [[ use != \c\o\m\p\l\e\t\i\o\n ]]
++ [[ use != \e\d\i\t ]]
++ [[ use != \h\o\m\e ]]
+++ echo activemq ant asciidoctorj ballerina bpipe btrace concurnas connor coursier cuba cxf doctoolchain flink gaiden gradle gradleprofiler grails groovy groovyserv hadoop helidon http4k infrastructor jarviz java jbake jbang jmc jmeter joern jreleaser karaf kcctl ki kobweb kotlin kscript ktx layrry leiningen maven mcs micronaut mulefd mvnd mybatis neo4jmigrations pierrot pomchecker quarkus sbt scala scalacli schemacrawler skeletal spark springboot sshoogr taxi test tomcat toolkit vertx visualvm webtau znai
+++ grep --color=auto -w maven
++ [[ -z activemq ant asciidoctorj ballerina bpipe btrace concurnas connor coursier cuba cxf doctoolchain flink gaiden gradle gradleprofiler grails groovy groovyserv hadoop helidon http4k infrastructor jarviz java jbake jbang jmc jmeter joern jreleaser karaf kcctl ki kobweb kotlin kscript ktx layrry leiningen maven mcs micronaut mulefd mvnd mybatis neo4jmigrations pierrot pomchecker quarkus sbt scala scalacli schemacrawler skeletal spark springboot sshoogr taxi test tomcat toolkit vertx visualvm webtau znai ]]
++ [[ use == \o\f\f\l\i\n\e ]]
++ local final_rc=0
++ local native_command=/home/dewi/.sdkman/libexec/use
++ '[' -f /home/dewi/.sdkman/libexec/use ']'
++ '[' -n /home/dewi/.sdkman/src/sdkman-use.sh ']'
+++ echo use
+++ tr - _
++ local converted_command_name=use
++ __sdk_use maven 3.6.0
++ local candidate version install
++ candidate=maven
++ version=3.6.0
++ __sdkman_check_version_present 3.6.0
++ local version=3.6.0
++ '[' -z 3.6.0 ']'
++ __sdkman_check_candidate_present maven
++ local candidate=maven
++ '[' -z maven ']'
++ [[ ! -d /home/dewi/.sdkman/candidates/maven/3.6.0 ]]
++ __sdkman_set_candidate_home maven 3.6.0
++ local candidate version upper_candidate
++ candidate=maven
++ version=3.6.0
+++ echo maven
+++ tr '[:lower:]' '[:upper:]'
++ upper_candidate=MAVEN
++ export MAVEN_HOME=/home/dewi/.sdkman/candidates/maven/3.6.0
++ MAVEN_HOME=/home/dewi/.sdkman/candidates/maven/3.6.0
++ [[ /home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/home/dewi/.sdkman/candidates/maven/current/bin:/home/dewi/.sdkman/candidates/kotlin/current/bin:/home/dewi/.sdkman/candidates/java/11.0.9-trava/bin:/home/dewi/.sdkman/candidates/gradle/current/bin:/home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/.cargo/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin:/home/dewi/.cabal/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin =~ /home/dewi/.sdkman/candidates/maven/([^/]+) ]]
++ local matched_version
++ [[ false == \t\r\u\e ]]
++ matched_version=current
++ export PATH=/home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/home/dewi/.sdkman/candidates/maven/3.6.0/bin:/home/dewi/.sdkman/candidates/kotlin/current/bin:/home/dewi/.sdkman/candidates/java/11.0.9-trava/bin:/home/dewi/.sdkman/candidates/gradle/current/bin:/home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/.cargo/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin:/home/dewi/.cabal/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin
++ PATH=/home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/home/dewi/.sdkman/candidates/maven/3.6.0/bin:/home/dewi/.sdkman/candidates/kotlin/current/bin:/home/dewi/.sdkman/candidates/java/11.0.9-trava/bin:/home/dewi/.sdkman/candidates/gradle/current/bin:/home/dewi/code/socat:/home/dewi/code/emacs/dewi/bin:/home/dewi/.cargo/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/tools:/home/dewi/code/tmux:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/.local/bin://home/dewi/code/doom-emacs/bin:/home/dewi/.npm-global/bin:/home/dewi/.ghcup/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin:/home/dewi/.cabal/bin:/home/dewi/.bin:/home/dewi/code/ktlint/ktlint/build/run:/home/dewi/code/kotlin-language-server/server/build/install/server/bin:/home/dewi/.cabal/bin/:/home/dewi/code/dot-files/bash_stuff/helpers/overrides:/home/dewi/code/dot-files/bash_stuff/helpers:/home/dewi/code/dot-files/bash_stuff/helpers/utils_to_backup:/home/dewi/code/dot-files/bash_stuff/helpers/gitlab_runner_dir:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/home/dewi/code/dot-files/bash_stuff/helpers/file_replace/bin:/home/dewi/code/dot-files/bash_stuff/helpers/kube_utils/bin:/usr/local/go/bin:/home/dewi/go/bin:/home/dewi/code/linux-timemachine:/home/dewi/Android/Sdk/tools:/home/dewi/Android/Sdk/tools/bin:/home/dewi/Android/Sdk/platform-tools:/home/dewi/Android/Sdk/build-tools/30.0.3:/home/dewi/code/care/miscellaneous/useful_scripts:/home/dewi/.npm-packages/bin
++ [[ -L /home/dewi/.sdkman/candidates/maven/current ]]
++ echo ''
+
++ __sdkman_echo_green 'Using maven version 3.6.0 in this shell.'
++ __sdkman_echo 32m 'Using maven version 3.6.0 in this shell.'
++ [[ true == \f\a\l\s\e ]]
++ echo -e '\033[1;32mUsing maven version 3.6.0 in this shell.\033[0m'
+[1;32mUsing maven version 3.6.0 in this shell.[0m
++ final_rc=0
++ return 0
++ mvn package -pl system
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.openliberty.guides:system:war:1.0-SNAPSHOT
+[WARNING] 'parent.version' is either LATEST or RELEASE (both of them are being deprecated) @ io.openliberty.guides:kube-demo:1.0-SNAPSHOT, /home/dewi/code/sample-kubernetes-config/start/pom.xml, line 11, column 18
+[WARNING] 'dependencyManagement.dependencies.dependency.version' for io.openliberty.features:features-bom:pom is either LATEST or RELEASE (both of them are being deprecated) @ io.openliberty.guides:kube-demo:1.0-SNAPSHOT, /home/dewi/code/sample-kubernetes-config/start/pom.xml, line 47, column 25
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.openliberty.guides:kube-demo:pom:1.0-SNAPSHOT
+[WARNING] 'parent.version' is either LATEST or RELEASE (both of them are being deprecated) @ line 11, column 18
+[WARNING] 'dependencyManagement.dependencies.dependency.version' for io.openliberty.features:features-bom:pom is either LATEST or RELEASE (both of them are being deprecated) @ line 47, column 25
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------< io.openliberty.guides:system >--------------------
+[INFO] Building system 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ system ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/dewi/code/sample-kubernetes-config/start/system/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ system ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ system ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/dewi/code/sample-kubernetes-config/start/system/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ system ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M1:test (default-test) @ system ---
+[INFO] 
+[INFO] --- liberty-maven-plugin:3.0.M1:install-server (create-server) @ system ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-runtime:null:RELEASE:zip.
+[INFO] CWWKM2102I: Using installDirectory : /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2185I: The liberty-maven-plugin configuration parameter "appsDirectory" value defaults to "apps".
+[INFO] CWWKM2112I: Re-using previously installed assembly.
+[INFO] 
+[INFO] --- liberty-maven-plugin:3.0.M1:create-server (create-server) @ system ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-runtime:null:RELEASE:zip.
+[INFO] CWWKM2102I: Using installDirectory : /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2185I: The liberty-maven-plugin configuration parameter "appsDirectory" value defaults to "apps".
+[INFO] CWWKM2112I: Re-using previously installed assembly.
+[INFO] Copying 1 file to /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp/usr/servers/defaultServer
+[INFO] CWWKM2144I: Update server configuration file server.xml from /home/dewi/code/sample-kubernetes-config/start/system/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from inlined configuration.
+[INFO] 
+[INFO] --- liberty-maven-plugin:3.0.M1:install-feature (install-feature) @ system ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-runtime:null:RELEASE:zip.
+[INFO] CWWKM2102I: Using installDirectory : /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] Installing features: [mpconfig-1.3, appsecurity-3.0, mphealth-2.2, cdi-2.0, jsonp-1.1, jaxrs-2.1]
+
+[INFO] CWWKF1250I: The following assets already exist: [appSecurity-3.0, cdi-2.0, jaxrs-2.1, jsonp-1.1, mpConfig-1.3, mpHealth-2.2]. They will not be reinstalled. To modify an existing feature, you must manually uninstall it first.
+[INFO] The features are already installed, so no action is needed.
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ system ---
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.converters.collections.TreeMapConverter (file:/home/dewi/.m2/repository/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4.jar) to field java.util.TreeMap.comparator
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.converters.collections.TreeMapConverter
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Packaging webapp
+[INFO] Assembling webapp [system] in [/home/dewi/code/sample-kubernetes-config/start/system/target/system]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/dewi/code/sample-kubernetes-config/start/system/src/main/webapp]
+[INFO] Webapp assembled in [32 msecs]
+[INFO] Building war: /home/dewi/code/sample-kubernetes-config/start/system/target/system.war
+[INFO] 
+[INFO] --- liberty-maven-plugin:3.0.M1:install-apps (install-apps) @ system ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-runtime:null:RELEASE:zip.
+[INFO] CWWKM2102I: Using installDirectory : /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] Copying 1 file to /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp/usr/servers/defaultServer
+[INFO] CWWKM2144I: Update server configuration file server.xml from /home/dewi/code/sample-kubernetes-config/start/system/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from inlined configuration.
+[INFO] CWWKM2160I: Installing application system.war.xml.
+[INFO] 
+[INFO] --- liberty-maven-plugin:3.0.M1:package-server (package-server) @ system ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-runtime:null:RELEASE:zip.
+[INFO] CWWKM2102I: Using installDirectory : /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2112I: Re-using previously installed assembly.
+[INFO] CWWKM2134I: Packaging server defaultServer.
+[INFO] Copying 1 file to /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp/usr/servers/defaultServer
+[INFO] CWWKM2144I: Update server configuration file server.xml from /home/dewi/code/sample-kubernetes-config/start/system/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from inlined configuration.
+[INFO] CWWKM2136I: Package file location is /home/dewi/code/sample-kubernetes-config/start/system/target/defaultServer.zip.
+[INFO] CWWKM2001I: server.config.dir is /home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2001I: server.output.dir is /home/dewi/code/sample-kubernetes-config/start/system/target/liberty-alt-output-dir/defaultServer.
+[INFO] CWWKM2001I: Invoke command is [/home/dewi/code/sample-kubernetes-config/start/system/target/liberty/wlp/bin/server, package, defaultServer, --archive=/home/dewi/code/sample-kubernetes-config/start/system/target/defaultServer.zip, --include=usr].
+[INFO] 
+[INFO] Packaging server defaultServer.
+[INFO] Server defaultServer package complete in /home/dewi/code/sample-kubernetes-config/start/system/target/defaultServer.zip.
+[INFO] 
+[INFO] --- dockerfile-maven-plugin:1.4.10:build (default) @ system ---
+[INFO] dockerfile: null
+[INFO] contextDirectory: /home/dewi/code/sample-kubernetes-config/start/system
+[INFO] Building Docker context /home/dewi/code/sample-kubernetes-config/start/system
+[INFO] Path(dockerfile): null
+[INFO] Path(contextDirectory): /home/dewi/code/sample-kubernetes-config/start/system
+[INFO] 
+[INFO] Image will be built as system:1.0-SNAPSHOT
+[INFO] 
+[INFO] Step 1/6 : FROM open-liberty
+[INFO] 
+[INFO] Pulling from library/open-liberty
+[INFO] Digest: sha256:a9493050c0f6ce2ca98d936f5b180f48792143a424661c79f0dab176256f846d
+[INFO] Status: Image is up to date for open-liberty:latest
+[INFO]  ---> 519b0380fc2f
+[INFO] Step 2/6 : COPY target/liberty/wlp/usr/servers/defaultServer/bootstrap.properties /config
+[INFO] 
+[INFO]  ---> Using cache
+[INFO]  ---> 62c95c5e555d
+[INFO] Step 3/6 : COPY target/liberty/wlp/usr/servers/defaultServer/server.env /config
+[INFO] 
+[INFO]  ---> Using cache
+[INFO]  ---> b345f848b11f
+[INFO] Step 4/6 : COPY src/main/liberty/config/server.xml /config
+[INFO] 
+[INFO]  ---> Using cache
+[INFO]  ---> 93b8701d35e6
+[INFO] Step 5/6 : COPY target/*.war /config/apps/system.war
+[INFO] 
+[INFO]  ---> 1b074f48369b
+[INFO] Step 6/6 : RUN chown -R 1001:0 /config
+[INFO] 
+[INFO]  ---> Running in cc00334112a0
+[INFO] Removing intermediate container cc00334112a0
+[INFO]  ---> 5ae30d59d526
+[INFO] Successfully built 5ae30d59d526
+[INFO] Successfully tagged system:1.0-SNAPSHOT
+[INFO] 
+[INFO] Detected build of image with id 5ae30d59d526
+[INFO] Building jar: /home/dewi/code/sample-kubernetes-config/start/system/target/system-docker-info.jar
+[INFO] Successfully built system:1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.120 s
+[INFO] Finished at: 2023-03-28T08:22:14Z
+[INFO] ------------------------------------------------------------------------
++ mvn package -pl inventory
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.openliberty.guides:system:war:1.0-SNAPSHOT
+[WARNING] 'parent.version' is either LATEST or RELEASE (both of them are being deprecated) @ io.openliberty.guides:kube-demo:1.0-SNAPSHOT, /home/dewi/code/sample-kubernetes-config/start/pom.xml, line 11, column 18
+[WARNING] 'dependencyManagement.dependencies.dependency.version' for io.openliberty.features:features-bom:pom is either LATEST or RELEASE (both of them are being deprecated) @ io.openliberty.guides:kube-demo:1.0-SNAPSHOT, /home/dewi/code/sample-kubernetes-config/start/pom.xml, line 47, column 25
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.openliberty.guides:kube-demo:pom:1.0-SNAPSHOT
+[WARNING] 'parent.version' is either LATEST or RELEASE (both of them are being deprecated) @ line 11, column 18
+[WARNING] 'dependencyManagement.dependencies.dependency.version' for io.openliberty.features:features-bom:pom is either LATEST or RELEASE (both of them are being deprecated) @ line 47, column 25
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------< io.openliberty.guides:inventory >-------------------
+[INFO] Building inventory 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ inventory ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/dewi/code/sample-kubernetes-config/start/inventory/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ inventory ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ inventory ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/dewi/code/sample-kubernetes-config/start/inventory/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ inventory ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M1:test (default-test) @ inventory ---
+[INFO] 
+[INFO] --- liberty-maven-plugin:3.0.M1:install-server (create-server) @ inventory ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-runtime:null:RELEASE:zip.
+[INFO] CWWKM2102I: Using installDirectory : /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2185I: The liberty-maven-plugin configuration parameter "appsDirectory" value defaults to "apps".
+[INFO] CWWKM2112I: Re-using previously installed assembly.
+[INFO] 
+[INFO] --- liberty-maven-plugin:3.0.M1:create-server (create-server) @ inventory ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-runtime:null:RELEASE:zip.
+[INFO] CWWKM2102I: Using installDirectory : /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2185I: The liberty-maven-plugin configuration parameter "appsDirectory" value defaults to "apps".
+[INFO] CWWKM2112I: Re-using previously installed assembly.
+[INFO] Copying 1 file to /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp/usr/servers/defaultServer
+[INFO] CWWKM2144I: Update server configuration file server.xml from /home/dewi/code/sample-kubernetes-config/start/inventory/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from inlined configuration.
+[INFO] 
+[INFO] --- liberty-maven-plugin:3.0.M1:install-feature (install-feature) @ inventory ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-runtime:null:RELEASE:zip.
+[INFO] CWWKM2102I: Using installDirectory : /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] Installing features: [mpconfig-1.3, mphealth-2.2, cdi-2.0, mprestclient-1.2, jsonp-1.1, jaxrs-2.1]
+
+[INFO] CWWKF1250I: The following assets already exist: [cdi-2.0, jaxrs-2.1, jsonp-1.1, mpConfig-1.3, mpHealth-2.2, mpRestClient-1.2]. They will not be reinstalled. To modify an existing feature, you must manually uninstall it first.
+[INFO] The features are already installed, so no action is needed.
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ inventory ---
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.converters.collections.TreeMapConverter (file:/home/dewi/.m2/repository/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4.jar) to field java.util.TreeMap.comparator
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.converters.collections.TreeMapConverter
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Packaging webapp
+[INFO] Assembling webapp [inventory] in [/home/dewi/code/sample-kubernetes-config/start/inventory/target/inventory]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/dewi/code/sample-kubernetes-config/start/inventory/src/main/webapp]
+[INFO] Webapp assembled in [44 msecs]
+[INFO] Building war: /home/dewi/code/sample-kubernetes-config/start/inventory/target/inventory.war
+[INFO] 
+[INFO] --- liberty-maven-plugin:3.0.M1:install-apps (install-apps) @ inventory ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-runtime:null:RELEASE:zip.
+[INFO] CWWKM2102I: Using installDirectory : /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] Copying 1 file to /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp/usr/servers/defaultServer
+[INFO] CWWKM2144I: Update server configuration file server.xml from /home/dewi/code/sample-kubernetes-config/start/inventory/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from inlined configuration.
+[INFO] CWWKM2160I: Installing application inventory.war.xml.
+[INFO] 
+[INFO] --- liberty-maven-plugin:3.0.M1:package-server (package-server) @ inventory ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-runtime:null:RELEASE:zip.
+[INFO] CWWKM2102I: Using installDirectory : /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2112I: Re-using previously installed assembly.
+[INFO] CWWKM2134I: Packaging server defaultServer.
+[INFO] Copying 1 file to /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp/usr/servers/defaultServer
+[INFO] CWWKM2144I: Update server configuration file server.xml from /home/dewi/code/sample-kubernetes-config/start/inventory/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from inlined configuration.
+[INFO] CWWKM2136I: Package file location is /home/dewi/code/sample-kubernetes-config/start/inventory/target/defaultServer.zip.
+[INFO] CWWKM2001I: server.config.dir is /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2001I: server.output.dir is /home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty-alt-output-dir/defaultServer.
+[INFO] CWWKM2001I: Invoke command is [/home/dewi/code/sample-kubernetes-config/start/inventory/target/liberty/wlp/bin/server, package, defaultServer, --archive=/home/dewi/code/sample-kubernetes-config/start/inventory/target/defaultServer.zip, --include=usr].
+[INFO] 
+[INFO] Packaging server defaultServer.
+[INFO] Server defaultServer package complete in /home/dewi/code/sample-kubernetes-config/start/inventory/target/defaultServer.zip.
+[INFO] 
+[INFO] --- dockerfile-maven-plugin:1.4.10:build (default) @ inventory ---
+[INFO] dockerfile: null
+[INFO] contextDirectory: /home/dewi/code/sample-kubernetes-config/start/inventory
+[INFO] Building Docker context /home/dewi/code/sample-kubernetes-config/start/inventory
+[INFO] Path(dockerfile): null
+[INFO] Path(contextDirectory): /home/dewi/code/sample-kubernetes-config/start/inventory
+[INFO] 
+[INFO] Image will be built as inventory:1.0-SNAPSHOT
+[INFO] 
+[INFO] Step 1/6 : FROM open-liberty
+[INFO] 
+[INFO] Pulling from library/open-liberty
+[INFO] Digest: sha256:a9493050c0f6ce2ca98d936f5b180f48792143a424661c79f0dab176256f846d
+[INFO] Status: Image is up to date for open-liberty:latest
+[INFO]  ---> 519b0380fc2f
+[INFO] Step 2/6 : COPY target/liberty/wlp/usr/servers/defaultServer/bootstrap.properties /config
+[INFO] 
+[INFO]  ---> Using cache
+[INFO]  ---> 62c95c5e555d
+[INFO] Step 3/6 : COPY target/liberty/wlp/usr/servers/defaultServer/server.env /config
+[INFO] 
+[INFO]  ---> Using cache
+[INFO]  ---> 8125564480c8
+[INFO] Step 4/6 : COPY src/main/liberty/config/server.xml /config
+[INFO] 
+[INFO]  ---> Using cache
+[INFO]  ---> 6c00e8f1e2c9
+[INFO] Step 5/6 : COPY target/*.war /config/apps/inventory.war
+[INFO] 
+[INFO]  ---> 8e214f1cafb8
+[INFO] Step 6/6 : RUN chown -R 1001:0 /config
+[INFO] 
+[INFO]  ---> Running in 2e6313c25ef5
+[INFO] Removing intermediate container 2e6313c25ef5
+[INFO]  ---> 1a15f0b714b6
+[INFO] Successfully built 1a15f0b714b6
+[INFO] Successfully tagged inventory:1.0-SNAPSHOT
+[INFO] 
+[INFO] Detected build of image with id 1a15f0b714b6
+[INFO] Building jar: /home/dewi/code/sample-kubernetes-config/start/inventory/target/inventory-docker-info.jar
+[INFO] Successfully built inventory:1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.284 s
+[INFO] Finished at: 2023-03-28T08:22:30Z
+[INFO] ------------------------------------------------------------------------

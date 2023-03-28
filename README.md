@@ -1,3 +1,9 @@
+# HOW TO BUILD AND RUN
+cd start && bash -c start/build.sh 
+
+# WHAT THIS IS
+code from here https://kubernetes.io/docs/tutorials/configuration/configure-java-microservice/configure-java-microservice-interactive/
+
 # Externalizing config using MicroProfile, ConfigMaps and Secrets Kubernetes Sample
 
 This repository contains the sample code required for the Java configuration tutorial on Kubernetes.io. The tutorial can be found here: https://kubernetes.io/docs/tutorials/configuration/configure-java-microservice/configure-java-microservice/
