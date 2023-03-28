@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: system-container
-        image: system:1.0-SNAPSHOT
+        image: dewijones92/dewi_system
         ports:
         - containerPort: 9080
         readinessProbe:
@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: inventory-container
-        image: inventory:1.0-SNAPSHOT
+        image: dewijones92/dewi_inventory
         ports:
         - containerPort: 9080
         readinessProbe:
